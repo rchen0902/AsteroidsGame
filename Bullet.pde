@@ -5,10 +5,11 @@ class Bullet extends Floater{
     myCenterY = bob.getY();
     myXspeed = bob.getXspeed();
     myYspeed = bob.getYspeed();
-    myPointDirection = bob.getmyPointDirection();
-    accelerate(0.4);  
+    myPointDirection = bob.getmyPointDirection(); 
   }
+  
   public void move() {
+    accelerate(0.4); 
     myCenterX += myXspeed;
     myCenterY += myYspeed;
   }
