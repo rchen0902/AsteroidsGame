@@ -48,10 +48,10 @@ if(keyPressed){
     bob.accelerate(-.1);
   }
   if(key == 'd'){
-    bob.turn(10);
+    bob.turn(5);
   }
   if(key == 'a'){
-    bob.turn(-10);
+    bob.turn(-5);
   }
   if(key == 'h'){
     bob.hyperspace();
