@@ -16,8 +16,7 @@ public void setup()
 public void draw()
 {
   background(0);
-  bob.show();
-  bob.move();
+
   for (int i = 0; i < nightSky.length; i++)
   {
     nightSky[i].show();
@@ -62,4 +61,6 @@ if(keyPressed){
    shots.add(new Bullet(bob)); 
   }
   }
+  bob.show();
+  bob.move();
 }
