@@ -28,6 +28,7 @@ public void draw()
     float d = dist((float)bob.getX(), (float)bob.getY(), (float)rocks.get(i).getX(), (float)rocks.get(i).getY());
     if (d < 10) {
     rocks.remove(i);
+    break;
   }
   for (int j = 0; j < shots.size(); j++){
     shots.get(j).move();
