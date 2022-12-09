@@ -34,7 +34,7 @@ public void draw()
     shots.get(j).move();
     shots.get(j).show();
     float dd = dist((float)shots.get(j).getX(),(float)shots.get(j).getY(), (float)rocks.get(i).getX(), (float)rocks.get(i).getY());
-    if(dd < 25){
+    if(dd < 20){
       shots.remove(j);
       rocks.remove(i);
       break;
