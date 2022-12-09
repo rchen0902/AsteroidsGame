@@ -41,8 +41,7 @@ public void draw()
     }
   }
   }
-}
-public void keyPressed(){
+if(keyPressed){
   if(key == 'w'){
     bob.accelerate(.1);
   }
@@ -61,5 +60,6 @@ public void keyPressed(){
    if (key == ' ')
   {
    shots.add(new Bullet(bob)); 
+  }
   }
 }
